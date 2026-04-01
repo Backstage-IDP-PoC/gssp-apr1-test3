@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: gssp-apr1-test3
+  description: Service gssp-apr1-test3
+
+  annotations:
+    github.com/project-slug: Backstage-IDP-PoC/gssp-apr1-test3
+    backstage.io/techdocs-ref: dir:.
+    jenkins.io/job-full-name: Backstage_PoC/gssp-apr1-test3/main
+    argocd/app-name: gssp-apr1-test3
+    backstage.io/kubernetes-id: gssp-apr1-test3
+    backstage.io/kubernetes-namespace: default
+    
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
